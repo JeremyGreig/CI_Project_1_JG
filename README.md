@@ -4,6 +4,8 @@ External User’s Goal: The user seeks accessible, beginner-friendly information
 
 Site Owner’s Goal: The site owner wants to create a welcoming webpage that provides basic mental health information using a clean and supportive design. The focus is on using HTML and CSS with Bootstrap to create a calming and well-organised user experience.
 
+Project Goal: Create a page that acts as a singular support page for Mental Health First Aiders.
+
 ![Mobile devices Mockup](assets/images/Canva mock up for website - mobile devices.png)
 
 ## Features 
