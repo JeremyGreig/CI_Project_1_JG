@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Meta tags for search engines -->
-    <meta name="description"
-        content="Mental Health Awareness. A welcoming webpage to provide you with some basic mental health information. This to help you recognise common issues and manage stress.">
+    <meta name="description" content="Mental Health Awareness. A welcoming webpage to provide you with some basic mental health information. This to help you recognise common issues and manage stress.">
     <meta name="keywords" content="mental health, stress, support, tips, common issues, MHFA">
     <!-- Title -->
     <title>Mental Health First Aid</title>
@@ -17,6 +16,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -32,9 +32,9 @@
         <nav>
             <ul id="menu">
                 <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="#information.html">Gallery</a></li>
-                <li><a href="#resources.html">Resources</a></li>
-                <li><a href="copilot.html">Affirmations</a></li>
+                <li><a href="#information">Information</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#affirmations">Affirmations</a></li>
             </ul>
         </nav>
     </header>
@@ -44,91 +44,71 @@
         <!-- Hero section -->
         <section id="hero">
             <div id="cover-text">
-                <h2>MHFA Suppport</h2>
-                <h3>Supporting Mental Health First Aiders</h3>
+                <h2>Signposting the signposters</h2>
+                <h3>We got you</h3>
             </div>
         </section>
 
-        <!-- Reasons section -->
-        <section id="information">
+        <!-- Information Cards -->
+        <div id="information" class="container my-5">
             <h2>Supporting you</h2>
-            <div id="benefits">
-                <div id="benefits-physical">
-                    <div>
-                        <h3>Feel healthy <i class="fa-solid fa-heart-pulse"></i></h3>
-                        <hr>
-                        <p>Since it improves aerobic fitness, running is a great way to help improve your cardiovascular
-                            health. Plus, it burns calories and can build strength.</p>
-                    </div>
-                    <div>
-                        <h3>Feel strong <i class="fa-solid fa-dumbbell"></i></h3>
-                        <hr>
-                        <p>Running strengthens your heart by pumping blood more effectively through your body.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Mental Health</h5>
+                            <p class="card-text">"A state of complete physical, mental, and social well-being and not merely the absence of disease or infirmity."<br>
+                            The World Health Organisation</p>                            
+                        </div>
                     </div>
                 </div>
-                <div id="benefits-mental">
-                    <div>
-                        <h3>Feel free <i class="fa-brands fa-fly"></i></h3>
-                        <hr>
-                        <p>Physical exercise, running included, is known to release endorphins in the brain. Endorphins
-                            make you more energetic, more awake and, yes, happier.</p>
-                    </div>
-                    <div>
-                        <h3>Get social <i class="fa-solid fa-globe"></i></h3>
-                        <hr>
-                        <p>When we run with others, we can run farther and faster more easily. Social running can pull
-                            you out of a running funk or low mood, and inspire you to try new events.</p>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Remember ALGEE</h5>
+                            <p class="card-text">
+                                - Approach<br>
+                                - Listen<br>
+                                - Give Support<br>
+                                - Encourage appropriate help<br>
+                                - Encourage other support
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div id="benefits-image">
-                    <div id="circle-cover-bg"></div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Helpful Resources</h5>
+                            <p class="card-text">
+                                - Ring 999 to contact emergency services<br>
+                                - <a href="https://www.samaritans.org/" target="_blank">Samaritans - 0300 304 7000</a><br>
+
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <!-- External Links -->
-        <section id="meetups">
+        <!-- Resource Links -->
+        <div id="resources" class="container my-5">
             <h2 class="hidden-heading">Resource Links</h2>
-            <div id="times">
-                <div>
-                    <h3>Verywell Mind <i class="fa-solid fa-newspaper"></i></h3>
-                    <p>Trusted mental health information when you need it most.</p>
-                    <p>Articles and Research</p>
-                    <a href="https://www.verywellmind.com/" target="_blank" class="btn btn-outline-info" role="button">Visit Site</a>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://www.verywellmind.com/" target="_blank" class="btn btn-outline-info btn-block">Verywell Mind</a>
                 </div>
-                <div>
-                    <h3>Trail <i class="fa-solid fa-tree"></i></h3>
-                    <p>Wednesday</p>
-                    <p>10K</p>
-                    <p>The Phoenix Park</p>
-                    <p>18:30</p>
+                <div class="col-md-4">
+                    <a href="https://example.com" target="_blank" class="btn btn-outline-info btn-block">Resource 2</a>
                 </div>
-                <div>
-                    <h3>Urban <i class="fa-solid fa-city"></i></h3>
-                    <p>Friday</p>
-                    <p>5K</p>
-                    <p>The Marker Hotel</p>
-                    <p>18:30</p>
-                </div>
-                <div>
-                    <h3>Trail <i class="fa-solid fa-tree"></i></h3>
-                    <p>Saturday</p>
-                    <p>10K</p>
-                    <p>The Phoenix Park</p>
-                    <p>09:30</p>
-                </div>
-                <div>
-                    <h3>Coffee <i class="fa-solid fa-mug-hot"></i></h3>
-                    <p>Sunday</p>
-                    <p>0K</p>
-                    <p>The Marker Hotel</p>
-                    <p>11:30</p>
+                <div class="col-md-4">
+                    <a href="https://example.com" target="_blank" class="btn btn-outline-info btn-block">Resource 3</a>
                 </div>
             </div>
-        </section>
+        </div>
 
-         <!-- Positive Affirmations -->
-         <div id="affirmations" class="container my-5">
+        <!-- Positive Affirmations -->
+        <div id="affirmations" class="container my-5">
             <h2>Positive Affirmations</h2>
             <blockquote class="blockquote text-center">
                 <p class="mb-0">"You are stronger than you think, braver than you believe, and more loved than you will ever know."</p>
@@ -145,30 +125,16 @@
     <footer>
         <ul id="social-networks">
             <li>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)">
                     <i class="fa-brands fa-facebook"></i></a>
             </li>
             <li>
-                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)">
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)">
                     <i class="fa-brands fa-twitter-square"></i></a>
             </li>
             <li>
-                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)">
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)">
                     <i class="fa-brands fa-youtube-square"></i></a>
             </li>
             <li>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)">
-                    <i class="fa-brands fa-instagram"></i></a>
-            </li>
-        </ul>
-    </footer>
-
-    <!-- Font Awesome kit -->
-    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
-</body>
-
-</html>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page
