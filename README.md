@@ -8,6 +8,16 @@ Project Goal: Create a page that acts as a singular support page for Mental Heal
 
 ![Mobile devices Mockup](assets/images/Canva mock up for website - mobile devices.png)
 
+## Design Strategy ##
+
+1.0 - Use existing Love Running website, and customise for project
+1.1 - Take tweaked Love Running code, and asked Copilot to customise that code to fit the brief of the project. Specfically matching the following:
+
+- Hero Section with Positive Messaging: A Bootstrap Jumbotron with an encouraging message about mental health, using a calming colour scheme and a simple background image.
+- Information Cards: Use Bootstrap’s card components to present mental health tips and common issues, providing a visually appealing way to organise content.
+- Resource Links: A grid layout for external links to mental health resources styled with Bootstrap buttons to make them stand out.
+- Positive Affirmations: Use Bootstrap’s text utilities to include a section with uplifting quotes or messages to encourage users. 
+
 ## Features 
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
