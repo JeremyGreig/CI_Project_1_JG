@@ -11,7 +11,7 @@ Project Goal: Create a page that acts as a singular support page for Mental Heal
 ## Design Strategy ##
 
 1.0 - Use existing Love Running website, and customise for project
-1.1 - Take tweaked Love Running code, and asked Copilot to customise that code to fit the brief of the project. Specfically matching the following:
+1.1 - Take tweaked Love Running code, and asked Copilot to customise that code to fit the brief of the project. Specifically matching the following:
 
 - Hero Section with Positive Messaging: A Bootstrap Jumbotron with an encouraging message about mental health, using a calming colour scheme and a simple background image.
 - Information Cards: Use Bootstrap’s card components to present mental health tips and common issues, providing a visually appealing way to organise content.
@@ -26,8 +26,9 @@ In this section, you should go over the different parts of your project, and des
 
 - __Navigation Bar__
 
-  - Featured on the single page, the full responsive navigation bar includes links to the Logo, Home page, <add additional page sections> is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured on the single page, the full responsive navigation bar includes links to the Logo, Information, and Resources section.
+  - This is a single page website, so the navigation links only link to anchors on the page.
+  - This will be responsive, changing to an icon for smaller screensizes, and full text for larger.
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
