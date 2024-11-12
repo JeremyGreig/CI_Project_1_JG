@@ -34,44 +34,35 @@ In this section, you should go over the different parts of your project, and des
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing includes a photograph with text overlay to allow the user to see the page is there to help them. 
+  - This section introduces the user to MHFA Support with a relaxing image and text to reassure the user.
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-- __Club Ethos Section__
+- __Supporting You Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The supporting you section will allow the user to quickly access key information when required. 
+  - The user will be able to define Mental Health, remember the Triage acronym of AlGEE, and use key contacts. 
 
 ![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-- __Meetup Times section__
+- __Resource Links__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section will allow the user to access additonal resource links for either signposting others, or developing themselves. 
+  - This section will be updated with new resources once they have been vetted. 
 
 ![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
+__Positive Affirmations__
+
+  - This section provides messages to support the user with the motivation
+  - Any actual motivation is fictional. This is is a not for profit personal project and thus I do not expect Marvel to sue me.
+
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - Currently no footer images as there are no external sites to link to. See future iterations.
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
@@ -79,7 +70,8 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-- Another feature idea
+  - Build out a social media presence, and link to these in the footer
+  - Positive affirmations to become a singular quote that changes on each load of the screen and on a timer to keep them fresh.
 
 ## Testing 
 
