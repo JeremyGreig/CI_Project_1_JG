@@ -25,7 +25,9 @@ h1, h2, h3 {
     color: #252525;
 }
 
-h2 { text-align: center; }
+h2 { 
+    text-align: center; 
+}
 
 .hidden-heading {
     display: none;
@@ -113,7 +115,7 @@ main {
     font-size: 130%;
     position: absolute;
     bottom: 30px;
-    width: 80%;
+    width: 100%;
     min-height: 200px;
     padding-top: 40px;
     padding-left: 10px;
@@ -123,7 +125,7 @@ main {
     color: #ffffff;
 }
 
-/* Footer */
+/* Footer - not in use yet so commenting out code
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -136,7 +138,7 @@ main {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
-}
+}*/
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
