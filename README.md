@@ -101,7 +101,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 - Bugs currently remain open in two tickets on the Kanban board
   - Bug_HTML error around semantic use of H1 for non heading text.
-  - Bug - Navbar not responsive. This was put to Copilot, but it didn't recognise any errors with the code.
+  - Bug - Navbar not responsive. This was put to Copilot, but it didn't recognise any errors with the code. - Updated: This was fixed prior to deployment
 
 ## Deployment
 
@@ -120,7 +120,14 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 - Code will be edited within Gitpod and managed via Github
 - Any committed code should be accompanied with a commit message to outline the changes added
 
-## Credits 
+## AI Review ##
+
+  - AI was effective at generating code for specific scenarios, it was also able to assess where code may be failing in the majority of circumstances. In particular, it was successful at finding missing or incorrectly placed tags. 
+  - Due to issues with SSH access, I was unable to use Copilot directly within VS Studio, and instead had to use the browser version of the IDE and Microsoft's logged in version of Copilot. This caused delays to the process. 
+  - Challenges stemmed from having to retrospectively understand code that Ai had suggested.
+  - For the Navigation bar issue, it was unable to resolve the problem.
+
+  ## Credits 
 
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
@@ -136,10 +143,3 @@ You can break the credits section up into Content and Media, depending on what y
 ### Media
 
 - The photos used on the home page are from Microsoft copilot prompts
-
-## AI Review ##
-
-  - AI was effective at generating code for specific scenarios, it was also able to assess where code may be failing in the majority of circumstances. In particular, it was successful at finding missing or incorrectly placed tags. 
-  - Due to issues with SSH access, I was unable to use Copilot directly within VS Studio, and instead had to use the browser version of the IDE and Microsoft's logged in version of Copilot. This caused delays to the process. 
-  - Challenges stemmed from having to retrospectively understand code that Ai had suggested.
-  - For the Navigation bar issue, it was unable to resolve the problem.
