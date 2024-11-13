@@ -124,15 +124,14 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The quotes used in the "Positive Affirmations" section are provided by Google searches and Wikipedia
+- The webpage outline was provided by Code Institute from the Love Running project
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Bootstrap icons are provided from Bootstrap
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
+- The photos used on the home page are from Microsoft copilot prompts
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 
