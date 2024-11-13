@@ -30,28 +30,20 @@ In this section, you should go over the different parts of your project, and des
   - This is a single page website, so the navigation links only link to anchors on the page.
   - This will be responsive, changing to an icon for smaller screensizes, and full text for larger.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
-
 - __The landing page image__
 
   - The landing includes a photograph with text overlay to allow the user to see the page is there to help them. 
   - This section introduces the user to MHFA Support with a relaxing image and text to reassure the user.
-
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
 - __Supporting You Section__
 
   - The supporting you section will allow the user to quickly access key information when required. 
   - The user will be able to define Mental Health, remember the Triage acronym of AlGEE, and use key contacts. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
 - __Resource Links__
 
   - This section will allow the user to access additonal resource links for either signposting others, or developing themselves. 
   - This section will be updated with new resources once they have been vetted. 
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
 __Positive Affirmations__
 
