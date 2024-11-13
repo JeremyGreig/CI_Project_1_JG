@@ -78,14 +78,19 @@ nav {
 }
 
 /* Nav toggle */
-
-#nav-toggle:checked~nav {
+#nav-toggle:checked ~ nav {
     display: block;
 }
+
+/* Hide the checkbox */
 #nav-toggle {
     display: none;
 }
+
+/* Style the label to look like a menu button */
 .nav-toggle-label {
+    display: none;
+    cursor: pointer;
     font-size: 2rem;
 }
 
@@ -184,6 +189,24 @@ main {
         width: 300px;
         right: 50px;
     }       
+}
+
+/* Show the label (menu button) on small screens */
+@media (max-width: 768px) {
+    .nav-toggle-label {
+        display: block;
+    }
+
+    /* Hide the menu by default */
+    #menu {
+        display: none;
+        flex-direction: column;
+    }
+
+    /* Show the menu when the checkbox is checked */
+    #nav-toggle:checked + .nav-toggle-label + nav #menu {
+        display: flex;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
