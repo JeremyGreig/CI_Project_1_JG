@@ -11,7 +11,7 @@ Personal Goal: As this project is focussed on the use of AI, the following tools
 
  - Updated: Due to an issue with SSH access, using Copilot within Github was not possible. As such any code was copied into Copilot and compared. Due to this less efficient way of using it, only simple code checks were possible within the timeline. 
 
-![Mobile devices Mockup](/workspace/CI_Project_1_JG/assets/images/Canva_mockup.png)
+![Mobile devices Mockup](assets/images/responsiveimage.png)
 
 ## Design Strategy ##
 
@@ -35,6 +35,9 @@ In this section, you should go over the different parts of your project, and des
   - This is a single page website, so the navigation links only link to anchors on the page.
   - This will be responsive, changing to an icon for smaller screensizes, and full text for larger.
 
+  ![Navigation Bar](assets/images/responsive%20navigation.png)
+  ![Navigation Bar](assets/images/largescreennav.png)
+
 - __The landing page image__
 
   - The landing includes a photograph with text overlay to allow the user to see the page is there to help them. 
@@ -50,10 +53,16 @@ In this section, you should go over the different parts of your project, and des
   - This section will allow the user to access additonal resource links for either signposting others, or developing themselves. 
   - This section will be updated with new resources once they have been vetted. 
 
+  ![Resource Links](assets/images/resourcelinkssmall.png)
+  ![Resource Links](assets/images/resourcelinkslarge.png)
+
 __Positive Affirmations__
 
   - This section provides messages to support the user with the motivation
   - Any actual motivation is fictional. This is is a not for profit personal project and thus I do not expect Marvel to sue me.
+
+  ![Positive Affirmations](assets/images/posaffsmall.png)
+  ![Positive Affirmations](assets/images/posafflarge.png)
 
 - __The Footer__ 
 
