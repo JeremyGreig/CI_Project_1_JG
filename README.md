@@ -6,7 +6,7 @@ Site Owner’s Goal: The site owner wants to create a welcoming webpage that pro
 
 Project Goal: Create a page that acts as a singular support page for Mental Health First Aiders.
 
-![Mobile devices Mockup](assets/images/Canva mock up for website - mobile devices.png)
+![Mobile devices Mockup](/workspace/CI_Project_1_JG/assets/images/Canva_mockup.png)
 
 ## Design Strategy ##
 
@@ -87,13 +87,16 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - This was run through the W3C manual code insertion test. 4 errors were flagged as well as 1 warning. Stray code was removed, warning has been raised as a bug request to be fixed in future release.
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - CSS validator results showed as no errors found via Jigsaw
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+- Bugs currently remain open in two tickets on the Kanban board
+  - Bug_HTML error around semantic use of H1 for non heading text.
+  - Bug - Navbar not responsive
+
 
 ## Deployment
 
@@ -106,12 +109,11 @@ This section should describe the process you went through to deploy the project 
 
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
 
-Code management:
+## Code management ##
 
 - As this project is being worked on by one person, all work will happen on the main branch unless it is a bug fix. Bug fixes will use a "bug" branch before being merged back into the main code.
-- Code will be edited within gitpod and managed via Github
+- Code will be edited within Gitpod and managed via Github
 - Any committed code should be accompanied with a commit message to outline the changes added
-
 
 
 ## Credits 
